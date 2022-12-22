@@ -1,5 +1,5 @@
-@import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,500&display=swap');
+html{ font-family: 'Noto Sans', sans-serif; };
 
 .txt-area{
     width: 70%;
@@ -8,8 +8,17 @@ html { font-family: 'Inter', sans-serif; }
     margin: 1rem;
 }
 
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+#txt-input{
+    font-size: large;
+}
+
+
 body{
-    font-family: Inter,sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -28,6 +37,7 @@ textarea{
 }
 
 #output{
+    font-family: 'Noto Sans', sans-serif;
     border: 1px solid #000;
 
     height: 12vh;
@@ -40,26 +50,40 @@ textarea{
     padding: 1rem;
     font-weight: bold;
     text-align: center;
+    font-size: 30px;
     
     
 }
 
 #btn-translate{
     color: black;
-    padding: 1rem 4rem;
+    padding: 1rem 2rem;
    background-color: yellow;
    text-align: center;
     margin: auto;
+    font-weight: bolder;
+    font-size: 20px;
   }
+
+.container{
+    border-radius: 0.5rem;
+     text-align: center;
+ }
 
 .btn{
     text-align: center;
     margin: auto;
     font-weight: bold;
-    padding-left: 5rem;
- 
+    padding-left: 1rem;
+    border-radius: 0.5rem;
+    font-weight: bolder;
+    
+}
+.txt-area{
+    width: 70%;
+    height: 9vh;
+    display: block;
+    margin: 1rem
 }
 
-h1{
-    text-align: center;
-}
+
